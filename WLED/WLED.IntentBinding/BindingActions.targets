@@ -1,0 +1,22 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <CleanDependsOn>
+            CleanBinding;
+            $(CleanDependsOn);
+        </CleanDependsOn>
+
+        <BuildDependsOn>
+            PrepareBinding;
+            $(BuildDependsOn);
+        </BuildDependsOn>
+    </PropertyGroup>
+    
+    <Target Name="CleanBinding">
+    <Exec Command="make clean -C ..\WLEDIntentStaticLib" />
+    </Target>
+
+    <Target Name="PrepareBinding">
+      <Exec Command="make -C ..\WLEDIntentStaticLib" />
+    </Target>
+</Project>

@@ -8,27 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FE42EA69283E97F200D13D8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42EA68283E97F200D13D8E /* AppDelegate.m */; };
-		FE42EA6C283E97F200D13D8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42EA6B283E97F200D13D8E /* SceneDelegate.m */; };
 		FE42EA6F283E97F200D13D8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42EA6E283E97F200D13D8E /* ViewController.m */; };
-		FE42EA72283E97F200D13D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE42EA70283E97F200D13D8E /* Main.storyboard */; };
 		FE42EA74283E97F300D13D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE42EA73283E97F300D13D8E /* Assets.xcassets */; };
-		FE42EA77283E97F300D13D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE42EA75283E97F300D13D8E /* LaunchScreen.storyboard */; };
 		FE42EA7A283E97F300D13D8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE42EA79283E97F300D13D8E /* main.m */; };
+		FE42EAA9283E98CE00D13D8E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FE42EAA8283E98CE00D13D8E /* Intents.intentdefinition */; };
+		FE42EAAF28411D3500D13D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE42EAAB28411D3500D13D8E /* LaunchScreen.storyboard */; };
+		FE42EAB028411D3500D13D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE42EAAD28411D3500D13D8E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE42EA64283E97F200D13D8E /* WLEDCodeGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLEDCodeGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE42EA67283E97F200D13D8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE42EA68283E97F200D13D8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE42EA6A283E97F200D13D8E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FE42EA6B283E97F200D13D8E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		FE42EA6D283E97F200D13D8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FE42EA6E283E97F200D13D8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FE42EA71283E97F200D13D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE42EA73283E97F300D13D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE42EA76283E97F300D13D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE42EA78283E97F300D13D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE42EA79283E97F300D13D8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE42EAA8283E98CE00D13D8E /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		FE42EAAC28411D3500D13D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE42EAAE28411D3500D13D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +62,24 @@
 			children = (
 				FE42EA67283E97F200D13D8E /* AppDelegate.h */,
 				FE42EA68283E97F200D13D8E /* AppDelegate.m */,
-				FE42EA6A283E97F200D13D8E /* SceneDelegate.h */,
-				FE42EA6B283E97F200D13D8E /* SceneDelegate.m */,
+				FE42EAA8283E98CE00D13D8E /* Intents.intentdefinition */,
 				FE42EA6D283E97F200D13D8E /* ViewController.h */,
 				FE42EA6E283E97F200D13D8E /* ViewController.m */,
-				FE42EA70283E97F200D13D8E /* Main.storyboard */,
 				FE42EA73283E97F300D13D8E /* Assets.xcassets */,
-				FE42EA75283E97F300D13D8E /* LaunchScreen.storyboard */,
 				FE42EA78283E97F300D13D8E /* Info.plist */,
 				FE42EA79283E97F300D13D8E /* main.m */,
+				FE42EAAA28411D3500D13D8E /* Base.lproj */,
 			);
 			path = WLEDCodeGen;
+			sourceTree = "<group>";
+		};
+		FE42EAAA28411D3500D13D8E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				FE42EAAB28411D3500D13D8E /* LaunchScreen.storyboard */,
+				FE42EAAD28411D3500D13D8E /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE42EA77283E97F300D13D8E /* LaunchScreen.storyboard in Resources */,
+				FE42EAB028411D3500D13D8E /* Main.storyboard in Resources */,
 				FE42EA74283E97F300D13D8E /* Assets.xcassets in Resources */,
-				FE42EA72283E97F200D13D8E /* Main.storyboard in Resources */,
+				FE42EAAF28411D3500D13D8E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,27 +155,27 @@
 				FE42EA6F283E97F200D13D8E /* ViewController.m in Sources */,
 				FE42EA69283E97F200D13D8E /* AppDelegate.m in Sources */,
 				FE42EA7A283E97F300D13D8E /* main.m in Sources */,
-				FE42EA6C283E97F200D13D8E /* SceneDelegate.m in Sources */,
+				FE42EAA9283E98CE00D13D8E /* Intents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE42EA70283E97F200D13D8E /* Main.storyboard */ = {
+		FE42EAAB28411D3500D13D8E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE42EA71283E97F200D13D8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE42EA75283E97F300D13D8E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE42EA76283E97F300D13D8E /* Base */,
+				FE42EAAC28411D3500D13D8E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE42EAAD28411D3500D13D8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE42EAAE28411D3500D13D8E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

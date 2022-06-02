@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE481A902848FAFE00FEC40B /* ToggleLEDIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE481A8F2848FAFE00FEC40B /* ToggleLEDIntent.m */; };
+		FE481A932848FBF800FEC40B /* ToggleAllLEDsIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE481A922848FBF800FEC40B /* ToggleAllLEDsIntent.m */; };
+		FE481A962848FC6800FEC40B /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE481A952848FC6700FEC40B /* Intents.framework */; };
+		FE481A982848FC7C00FEC40B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE481A972848FC7C00FEC40B /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE481A6A2848F81D00FEC40B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE481A6C2848F81D00FEC40B /* libWLEDIntentStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLEDIntentStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE481A8E2848FAE600FEC40B /* ToggleLEDIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleLEDIntent.h; sourceTree = "<group>"; };
+		FE481A8F2848FAFE00FEC40B /* ToggleLEDIntent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleLEDIntent.m; sourceTree = "<group>"; };
+		FE481A912848FBCA00FEC40B /* ToggleAllLEDsIntent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToggleAllLEDsIntent.h; sourceTree = "<group>"; };
+		FE481A922848FBF800FEC40B /* ToggleAllLEDsIntent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleAllLEDsIntent.m; sourceTree = "<group>"; };
+		FE481A952848FC6700FEC40B /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Intents.framework; sourceTree = DEVELOPER_DIR; };
+		FE481A972848FC7C00FEC40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE481A692848F81D00FEC40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE481A982848FC7C00FEC40B /* Foundation.framework in Frameworks */,
+				FE481A962848FC6800FEC40B /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE481A632848F81D00FEC40B = {
+			isa = PBXGroup;
+			children = (
+				FE481A6E2848F81D00FEC40B /* WLEDIntentStaticLib */,
+				FE481A6D2848F81D00FEC40B /* Products */,
+				FE481A942848FC6700FEC40B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE481A6D2848F81D00FEC40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE481A6C2848F81D00FEC40B /* libWLEDIntentStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE481A6E2848F81D00FEC40B /* WLEDIntentStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				FE481A8E2848FAE600FEC40B /* ToggleLEDIntent.h */,
+				FE481A8F2848FAFE00FEC40B /* ToggleLEDIntent.m */,
+				FE481A912848FBCA00FEC40B /* ToggleAllLEDsIntent.h */,
+				FE481A922848FBF800FEC40B /* ToggleAllLEDsIntent.m */,
+			);
+			path = WLEDIntentStaticLib;
+			sourceTree = "<group>";
+		};
+		FE481A942848FC6700FEC40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE481A972848FC7C00FEC40B /* Foundation.framework */,
+				FE481A952848FC6700FEC40B /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE481A6B2848F81D00FEC40B /* WLEDIntentStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE481A752848F81D00FEC40B /* Build configuration list for PBXNativeTarget "WLEDIntentStaticLib" */;
+			buildPhases = (
+				FE481A682848F81D00FEC40B /* Sources */,
+				FE481A692848F81D00FEC40B /* Frameworks */,
+				FE481A6A2848F81D00FEC40B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLEDIntentStaticLib;
+			productName = WLEDIntentStaticLib;
+			productReference = FE481A6C2848F81D00FEC40B /* libWLEDIntentStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE481A642848F81D00FEC40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FE481A6B2848F81D00FEC40B = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = FE481A672848F81D00FEC40B /* Build configuration list for PBXProject "WLEDIntentStaticLib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE481A632848F81D00FEC40B;
+			productRefGroup = FE481A6D2848F81D00FEC40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE481A6B2848F81D00FEC40B /* WLEDIntentStaticLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE481A682848F81D00FEC40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE481A902848FAFE00FEC40B /* ToggleLEDIntent.m in Sources */,
+				FE481A932848FBF800FEC40B /* ToggleAllLEDsIntent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE481A732848F81D00FEC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE481A742848F81D00FEC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE481A762848F81D00FEC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE481A772848F81D00FEC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE481A672848F81D00FEC40B /* Build configuration list for PBXProject "WLEDIntentStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE481A732848F81D00FEC40B /* Debug */,
+				FE481A742848F81D00FEC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE481A752848F81D00FEC40B /* Build configuration list for PBXNativeTarget "WLEDIntentStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE481A762848F81D00FEC40B /* Debug */,
+				FE481A772848F81D00FEC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE481A642848F81D00FEC40B /* Project object */;
+}
