@@ -11,9 +11,9 @@
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>21F79</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>13F17a</string>
+	<string>13F100</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>13.4</string>
+	<string>13.4.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -27,10 +27,8 @@
 			<string>Mloh6P</string>
 			<key>INIntentEligibleForWidgets</key>
 			<true/>
-			<key>INIntentInput</key>
-			<string>STATE</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>2</integer>
+			<integer>5</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key>STATE</key>
@@ -46,7 +44,7 @@
 				</dict>
 			</dict>
 			<key>INIntentName</key>
-			<string>TurnOffAll</string>
+			<string>ToggleOffAll</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
 				<key></key>
@@ -69,7 +67,7 @@
 					<key>INIntentParameterCombinationTitle</key>
 					<string>Turn all LEDs to ${STATE}</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>CnHmuw</string>
+					<string>QKnqP8</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -80,7 +78,7 @@
 					<key>INIntentParameterDisplayName</key>
 					<string>STATE</string>
 					<key>INIntentParameterDisplayNameID</key>
-					<string>88nbGt</string>
+					<string>5Zkhdv</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
 					<key>INIntentParameterMetadata</key>
@@ -88,11 +86,11 @@
 						<key>INIntentParameterMetadataFalseDisplayName</key>
 						<string>Off</string>
 						<key>INIntentParameterMetadataFalseDisplayNameID</key>
-						<string>Iw6fkn</string>
+						<string>R0vffC</string>
 						<key>INIntentParameterMetadataTrueDisplayName</key>
 						<string>On</string>
 						<key>INIntentParameterMetadataTrueDisplayNameID</key>
-						<string>lpg7GT</string>
+						<string>VhOruV</string>
 					</dict>
 					<key>INIntentParameterName</key>
 					<string>STATE</string>
@@ -107,6 +105,10 @@
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Would you like to turn all LEDs on or off?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>j9ZlvL</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -114,7 +116,7 @@
 					<key>INIntentParameterSupportsResolution</key>
 					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>2</integer>
+					<integer>5</integer>
 					<key>INIntentParameterType</key>
 					<string>Boolean</string>
 				</dict>
@@ -135,7 +137,7 @@
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
-				<integer>2</integer>
+				<integer>4</integer>
 				<key>INIntentResponseParameters</key>
 				<array>
 					<dict>
@@ -153,6 +155,42 @@
 						<true/>
 						<key>INIntentResponseParameterTag</key>
 						<integer>2</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>Integer</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterConfigurable</key>
+						<true/>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>State 1</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>K199e5</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>2</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>state1</string>
+						<key>INIntentResponseParameterSupportsResolution</key>
+						<true/>
+						<key>INIntentResponseParameterTag</key>
+						<integer>3</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>Integer</string>
+					</dict>
+					<dict>
+						<key>INIntentResponseParameterConfigurable</key>
+						<true/>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>State 2</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>fWrkkk</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>3</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>state2</string>
+						<key>INIntentResponseParameterSupportsResolution</key>
+						<true/>
+						<key>INIntentResponseParameterTag</key>
+						<integer>4</integer>
 						<key>INIntentResponseParameterType</key>
 						<string>Integer</string>
 					</dict>
@@ -291,6 +329,10 @@
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Would you like to turn this LED on or off?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>BNDRRA</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -365,17 +407,17 @@
 			<key>INIntentInput</key>
 			<string>LED</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>10</integer>
+			<integer>16</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key>LED,STATE S</key>
+				<key>LED,STATEID</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Set ${LED} to ${STATE S}</string>
+					<string>Set ${LED} to state ${STATEID}</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>EyjV8Y</string>
+					<string>lQm9l7</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
 					<true/>
 				</dict>
@@ -384,16 +426,18 @@
 			<string>SetLEDState</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
-				<key>LED,STATE S</key>
+				<key>LED,STATEID</key>
 				<dict>
 					<key>INIntentParameterCombinationIsLinked</key>
+					<true/>
+					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Set ${LED} to ${STATE S}</string>
+					<string>Set ${LED} to state ${STATEID}</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>lhFB3A</string>
+					<string>KU8id5</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -427,6 +471,10 @@
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Which LED would you like to set the state of?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>b0gEXF</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -452,10 +500,16 @@
 						<key>INIntentParameterMetadataCapitalization</key>
 						<string>Sentences</string>
 						<key>INIntentParameterMetadataDefaultValueID</key>
-						<string>0V19Pd</string>
+						<string>kOVaB0</string>
+						<key>INIntentParameterMetadataDisableAutocorrect</key>
+						<true/>
+						<key>INIntentParameterMetadataDisableSmartDashes</key>
+						<true/>
+						<key>INIntentParameterMetadataDisableSmartQuotes</key>
+						<true/>
 					</dict>
 					<key>INIntentParameterName</key>
-					<string>STATE S</string>
+					<string>STATEID</string>
 					<key>INIntentParameterPromptDialogs</key>
 					<array>
 						<dict>
@@ -467,6 +521,10 @@
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>What state would you like to set the LED to?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>GUjIFL</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -474,7 +532,7 @@
 					<key>INIntentParameterSupportsResolution</key>
 					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>10</integer>
+					<integer>16</integer>
 					<key>INIntentParameterType</key>
 					<string>String</string>
 				</dict>

@@ -331,6 +331,16 @@
       <Project>{ABDDB7BD-CDCE-4A8B-ABB3-ADD90960EC83}</Project>
       <Name>WLED</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\WLED.Intents\WLED.Intents.csproj">
+      <IsAppExtension>true</IsAppExtension>
+      <Project>{F44B332F-2981-4587-8FB8-387C6A48695C}</Project>
+      <Name>WLED.Intents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WLED.IntentsUI\WLED.IntentsUI.csproj">
+      <IsAppExtension>true</IsAppExtension>
+      <Project>{4716536E-D6F6-421F-BEF1-8E6E30E5FCD9}</Project>
+      <Name>WLED.IntentsUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />
@@ -347,6 +357,6 @@
     <Folder Include="Assets.xcassets\icon_modify.imageset\" />
   </ItemGroup>
   <ItemGroup>
-    <IntentDefinition Include="Resources\Intents.intentdefinition" />
+    <Content Include="Resources\Intents.intentdefinition" />
   </ItemGroup>
 </Project>
