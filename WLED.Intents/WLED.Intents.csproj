@@ -96,5 +96,10 @@
   <ItemGroup>
     <Compile Include="IntentHandler.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WLED\WLED.IntentBinding\WLED.IntentBinding.csproj">
+      <Name>WLED.IntentBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.AppExtension.CSharp.targets" />
 </Project>

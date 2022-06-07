@@ -11,7 +11,7 @@ namespace WLED.iOS
 	interface ToggleLEDIntent
 	{
 		// @property (readwrite, copy, nonatomic) NSString * _Nullable LED;
-		[NullAllowed, Export ("LED")]
+		[NullAllowed, Export ("LED", ArgumentSemantic.Copy)]
 		string LED { get; set; }
 
 		// @property (readwrite, copy, nonatomic) NSNumber * _Nullable STATE __attribute__((availability(ios, introduced=13.0))) __attribute__((availability(macos, introduced=11.0))) __attribute__((availability(watchos, introduced=6.0)));

@@ -25,6 +25,8 @@ namespace WLED.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            Console.WriteLine("five\n");
+
             return base.FinishedLaunching(app, options);
         }
     }

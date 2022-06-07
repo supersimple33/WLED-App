@@ -11,9 +11,9 @@
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>21F79</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>13F17a</string>
+	<string>13F100</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>13.4</string>
+	<string>13.4.1</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -200,10 +200,8 @@
 			<string>QGxvHM</string>
 			<key>INIntentEligibleForWidgets</key>
 			<true/>
-			<key>INIntentInput</key>
-			<string>STATE</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>7</integer>
+			<integer>9</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key>LED,STATE</key>
@@ -231,7 +229,7 @@
 					<key>INIntentParameterCombinationTitle</key>
 					<string>Turn${LED}to${STATE}</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>r4alvC</string>
+					<string>iCK0a3</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -286,7 +284,7 @@
 					<key>INIntentParameterDisplayName</key>
 					<string>STATE</string>
 					<key>INIntentParameterDisplayNameID</key>
-					<string>ThbBYP</string>
+					<string>in6OGN</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>2</integer>
 					<key>INIntentParameterMetadata</key>
@@ -294,11 +292,11 @@
 						<key>INIntentParameterMetadataFalseDisplayName</key>
 						<string>Off</string>
 						<key>INIntentParameterMetadataFalseDisplayNameID</key>
-						<string>m1iZpd</string>
+						<string>Iw6fkn</string>
 						<key>INIntentParameterMetadataTrueDisplayName</key>
 						<string>On</string>
 						<key>INIntentParameterMetadataTrueDisplayNameID</key>
-						<string>uGG0HY</string>
+						<string>lpg7GT</string>
 					</dict>
 					<key>INIntentParameterName</key>
 					<string>STATE</string>
@@ -314,9 +312,9 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Should the LED be turned On or Off?</string>
+							<string>Would you like to turn the light On or Off?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>MlFO5m</string>
+							<string>9HzEmf</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -324,7 +322,7 @@
 					<key>INIntentParameterSupportsResolution</key>
 					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>7</integer>
+					<integer>9</integer>
 					<key>INIntentParameterType</key>
 					<string>Boolean</string>
 				</dict>

@@ -108,6 +108,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\ToggleLED.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -341,6 +342,9 @@
       <Project>{A7860CDE-8A16-415F-9402-DA8F70F43236}</Project>
       <Name>WLED.IntentsUI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WLED.IntentBinding\WLED.IntentBinding.csproj">
+      <Name>WLED.IntentBinding</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />
@@ -355,6 +359,7 @@
     <Folder Include="Assets.xcassets\icon_delete.imageset\" />
     <Folder Include="Assets.xcassets\icon_power.imageset\" />
     <Folder Include="Assets.xcassets\icon_modify.imageset\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\WLEDCodeGen\WLEDCodeGen\Intents.intentdefinition">

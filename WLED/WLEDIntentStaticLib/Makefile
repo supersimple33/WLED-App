@@ -17,8 +17,8 @@ lib$(TARGET).a: lib$(TARGET)-simulator.a lib$(TARGET)-device.a
 	xcrun -sdk iphoneos lipo -create -output $@ $^
 
 bind: lib$(TARGET).a
-	sharpie bind -scope WLEDIntentStaticLib -output bo -namespace WLED.iOS -sdk iphoneos$(shell xcrun --show-sdk-platform-version --sdk iphoneos) WLEDIntentStaticLib/ToggleAllLEDsIntent.h
 	sharpie bind -scope WLEDIntentStaticLib -output bo -namespace WLED.iOS -sdk iphoneos$(shell xcrun --show-sdk-platform-version --sdk iphoneos) WLEDIntentStaticLib/ToggleLEDIntent.h
+	sharpie bind -scope WLEDIntentStaticLib -output bo -namespace WLED.iOS -sdk iphoneos$(shell xcrun --show-sdk-platform-version --sdk iphoneos) WLEDIntentStaticLib/ToggleAllLEDsIntent.h
 
 clean:
 	-rm -rf bo build *.a *.dll
