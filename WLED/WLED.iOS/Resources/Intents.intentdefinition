@@ -44,7 +44,7 @@
 				</dict>
 			</dict>
 			<key>INIntentName</key>
-			<string>ToggleOffAll</string>
+			<string>ToggleAll</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
 				<key></key>

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Intents;
+using ObjCRuntime;
 using UIKit;
 
 namespace WLED.iOS
@@ -25,7 +27,32 @@ namespace WLED.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            Console.WriteLine("five");
+
             return base.FinishedLaunching(app, options);
+        }
+
+        public override void UserActivityUpdated(UIApplication application, NSUserActivity userActivity)
+        {
+            base.UserActivityUpdated(application, userActivity); //?
+
+            Console.WriteLine(userActivity.ActivityType);
+            var a = 5;
+        }
+
+        public override void HandleIntent(UIApplication application, INIntent intent, Action<INIntentResponse> completionHandler)
+        {
+            base.HandleIntent(application, intent, completionHandler);
+
+            Console.WriteLine("made");
+            var a = 5;
+        }
+
+        public override bool WillContinueUserActivity(UIApplication application, string userActivityType)
+        {
+            Console.WriteLine(userActivityType);
+            return false;
+            //return base.WillContinueUserActivity(application, userActivityType);
         }
     }
 }
